@@ -1,0 +1,16 @@
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main{
+    min-height: calc(100vh - 132px);
+}
+
+footer{
+ height: 40px;
+ box-shadow: 0 -7px 8px #ccc;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}

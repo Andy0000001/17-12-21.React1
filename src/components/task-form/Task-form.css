@@ -1,0 +1,36 @@
+.task-form{
+    display: flex;
+    justify-content: center;
+    background-color: coral;
+    border-bottom: coral;
+    padding: 20px 0;
+
+}
+
+#task-input{
+    margin-right: 5px;
+    background-color: cornsilk;
+    border: none;
+    height: 20px;
+    border-radius: 10px;
+    width: 20%;
+    padding: 0 15px;
+    margin-top: 5px;
+}
+/* надо писать через класс а не через id */
+
+#task-button{
+    margin-right: 5px;
+    background-color: white;
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+    padding: 0 15px;
+    cursor: pointer;
+
+}
+
+#task-button:hover{
+    background-color: cornsilk;
+}
+
